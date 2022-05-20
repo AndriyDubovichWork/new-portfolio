@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/new-portfolio/static/css/main.150b8041.css",
+    "main.js": "/new-portfolio/static/js/main.0072d777.js",
+    "static/js/787.8d4efb73.chunk.js": "/new-portfolio/static/js/787.8d4efb73.chunk.js",
+    "static/media/ZSU_4.png": "/new-portfolio/static/media/ZSU_4.45b6b5d45f14a833b292.png",
+    "static/media/OldPortfolio_2.png": "/new-portfolio/static/media/OldPortfolio_2.bfc37214310a9952639a.png",
+    "static/media/OldPortfolio_1.png": "/new-portfolio/static/media/OldPortfolio_1.c4e6ad3a1ea07cd319bb.png",
+    "static/media/ZSU_3.png": "/new-portfolio/static/media/ZSU_3.c93770c7fb5407225a2c.png",
+    "static/media/Shop_1.png": "/new-portfolio/static/media/Shop_1.53fa8ade05ac26234fdf.png",
+    "static/media/ZSU_5.png": "/new-portfolio/static/media/ZSU_5.c11b27a225cd07e9bd06.png",
+    "static/media/OldPortfolio_3.png": "/new-portfolio/static/media/OldPortfolio_3.72026adb33bfb0015125.png",
+    "static/media/OldPortfolio_4.png": "/new-portfolio/static/media/OldPortfolio_4.c9985a3ba73b5a2e272b.png",
+    "static/media/ZSU_1.png": "/new-portfolio/static/media/ZSU_1.0edcd5213c7ee3935fd3.png",
+    "static/media/AndriyDubovichCV.pdf": "/new-portfolio/static/media/AndriyDubovichCV.492b1c88d6c769b4bac7.pdf",
+    "static/media/Shop_2.png": "/new-portfolio/static/media/Shop_2.ac0e54fb8abaef6b7ec0.png",
+    "static/media/OldPortfolio_6.png": "/new-portfolio/static/media/OldPortfolio_6.ae8e2adbdcb58269d6b1.png",
+    "static/media/OldPortfolio_5.png": "/new-portfolio/static/media/OldPortfolio_5.e5360ecf6459da3768d0.png",
+    "static/media/OldPortfolio_7.png": "/new-portfolio/static/media/OldPortfolio_7.836bf853e0f08d86d086.png",
+    "static/media/WordHub_2.png": "/new-portfolio/static/media/WordHub_2.75c3fd516bfe9185485b.png",
+    "static/media/ZSU_2.png": "/new-portfolio/static/media/ZSU_2.a85d9ce126723e7d4cc5.png",
+    "static/media/WordHub_1.png": "/new-portfolio/static/media/WordHub_1.364252fe89d748bfa4dd.png",
+    "static/media/slick.svg": "/new-portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/new-portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/new-portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/new-portfolio/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/new-portfolio/index.html",
+    "main.150b8041.css.map": "/new-portfolio/static/css/main.150b8041.css.map",
+    "main.0072d777.js.map": "/new-portfolio/static/js/main.0072d777.js.map",
+    "787.8d4efb73.chunk.js.map": "/new-portfolio/static/js/787.8d4efb73.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.150b8041.css",
+    "static/js/main.0072d777.js"
+  ]
+}
