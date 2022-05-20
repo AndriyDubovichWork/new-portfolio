@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.css": "/new-portfolio/static/css/main.150b8041.css",
-    "main.js": "/new-portfolio/static/js/main.0072d777.js",
+    "main.css": "/new-portfolio/static/css/main.0fc44357.css",
+    "main.js": "/new-portfolio/static/js/main.aa7f7b97.js",
     "static/js/787.8d4efb73.chunk.js": "/new-portfolio/static/js/787.8d4efb73.chunk.js",
     "static/media/ZSU_4.png": "/new-portfolio/static/media/ZSU_4.45b6b5d45f14a833b292.png",
+    "static/media/banner-foreground.png": "/new-portfolio/static/media/banner-foreground.1534c6459f051da7d664.png",
     "static/media/OldPortfolio_2.png": "/new-portfolio/static/media/OldPortfolio_2.bfc37214310a9952639a.png",
     "static/media/OldPortfolio_1.png": "/new-portfolio/static/media/OldPortfolio_1.c4e6ad3a1ea07cd319bb.png",
+    "static/media/banner-background.jpg": "/new-portfolio/static/media/banner-background.825d694bb735c27e6ce5.jpg",
     "static/media/ZSU_3.png": "/new-portfolio/static/media/ZSU_3.c93770c7fb5407225a2c.png",
     "static/media/Shop_1.png": "/new-portfolio/static/media/Shop_1.53fa8ade05ac26234fdf.png",
     "static/media/ZSU_5.png": "/new-portfolio/static/media/ZSU_5.c11b27a225cd07e9bd06.png",
@@ -25,12 +27,12 @@
     "static/media/slick.ttf": "/new-portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/new-portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/new-portfolio/index.html",
-    "main.150b8041.css.map": "/new-portfolio/static/css/main.150b8041.css.map",
-    "main.0072d777.js.map": "/new-portfolio/static/js/main.0072d777.js.map",
+    "main.0fc44357.css.map": "/new-portfolio/static/css/main.0fc44357.css.map",
+    "main.aa7f7b97.js.map": "/new-portfolio/static/js/main.aa7f7b97.js.map",
     "787.8d4efb73.chunk.js.map": "/new-portfolio/static/js/787.8d4efb73.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.150b8041.css",
-    "static/js/main.0072d777.js"
+    "static/css/main.0fc44357.css",
+    "static/js/main.aa7f7b97.js"
   ]
 }
