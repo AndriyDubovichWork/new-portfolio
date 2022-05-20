@@ -5,6 +5,8 @@ import { ParallaxProvider } from 'react-scroll-parallax';
 import AboutMe from './AboutMe/AboutMe';
 import ReactPageScroller from 'react-page-scroller';
 import WorkExamples from './WorkExamples/WorkExamples';
+import Contacts from './Contacts/Contacts';
+import CVPDF from './CVPDF/CVPDF';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
         <Greeting />
         <AboutMe />
         <WorkExamples />
+        <CVPDF />
+        <Contacts />
       </div>
     </ParallaxProvider>
   );

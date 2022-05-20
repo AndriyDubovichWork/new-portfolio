@@ -1,15 +1,31 @@
 import React from 'react';
 import style from './Greeting.module.scss';
-import { Parallax } from 'react-scroll-parallax';
+import { Parallax, ParallaxBanner } from 'react-scroll-parallax';
+import BackGround from './../../../assets/imgs/Greeting/banner-background.jpg';
+import ForeGround from './../../../assets/imgs/Greeting/banner-foreground.png';
 
 const Greeting = () => {
   return (
-    <div className={style.greet}>
-      <div className={style.Text}>
-        <h1>Dubovich Andriy</h1>
-        <h3>Front-End developer</h3>
+    <ParallaxBanner
+      layers={[
+        {
+          image: BackGround,
+          speed: -20,
+        },
+        {
+          image: ForeGround,
+          speed: -10,
+        },
+      ]}
+      className='aspect-[2/1]'
+    >
+      <div className={style.greet}>
+        <div className={style.Text}>
+          <h1>Dubovich Andriy</h1>
+          <h3>Front-End developer</h3>
+        </div>
       </div>
-    </div>
+    </ParallaxBanner>
   );
 };
 
