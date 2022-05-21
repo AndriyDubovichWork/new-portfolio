@@ -10,7 +10,7 @@ const Greeting = () => {
       layers={[
         {
           image: BackGround,
-          speed: -20,
+          speed: -40,
         },
         {
           image: ForeGround,
