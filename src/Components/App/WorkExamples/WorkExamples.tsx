@@ -56,7 +56,7 @@ const WorkExamples = () => {
         name='Old Portfolio'
         explain='my old portfolio'
         gitUrl='https://github.com/AndriyDubovichWork/Portfolio'
-        WebUrl='https://andriydubovichwork.github.io/Portfolio/'
+        WebUrl='https://andriydubovichwork.github.io/Portfolio/#/main'
       />
       <WorkExample
         imgs={WordHub_imgs}

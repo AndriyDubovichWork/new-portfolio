@@ -7,6 +7,7 @@ import ReactPageScroller from 'react-page-scroller';
 import WorkExamples from './WorkExamples/WorkExamples';
 import Contacts from './Contacts/Contacts';
 import CVPDF from './CVPDF/CVPDF';
+import PlaceHolder from '../styled/PlaceHolder/PlaceHolder';
 
 function App() {
   return (
