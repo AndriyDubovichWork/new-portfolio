@@ -18,6 +18,8 @@
     "@types/react-image-gallery": "^1.0.5",
     "@types/react-pdf": "^5.7.2",
     "@types/react-slick": "^0.23.8",
+    "downloadjs": "^1.4.7",
+    "pdf-lib": "^1.17.1",
     "pro-gallery": "^3.1.38",
     "react": "^18.1.0",
     "react-3d-cube-transition": "^1.0.5",
