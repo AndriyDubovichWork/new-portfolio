@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/new-portfolio/static/css/main.6a83f8e8.css",
-    "main.js": "/new-portfolio/static/js/main.369ca50b.js",
+    "main.css": "/new-portfolio/static/css/main.02c2be56.css",
+    "main.js": "/new-portfolio/static/js/main.b6937ac9.js",
     "static/js/787.8d4efb73.chunk.js": "/new-portfolio/static/js/787.8d4efb73.chunk.js",
     "static/media/ZSU_4.png": "/new-portfolio/static/media/ZSU_4.45b6b5d45f14a833b292.png",
     "static/media/banner-foreground.png": "/new-portfolio/static/media/banner-foreground.1534c6459f051da7d664.png",
@@ -27,12 +27,13 @@
     "static/media/slick.ttf": "/new-portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/new-portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/new-portfolio/index.html",
-    "main.6a83f8e8.css.map": "/new-portfolio/static/css/main.6a83f8e8.css.map",
-    "main.369ca50b.js.map": "/new-portfolio/static/js/main.369ca50b.js.map",
+    "static/media/loading.svg": "/new-portfolio/static/media/loading.6d8180e43d76aa03cec6bba31b009e9a.svg",
+    "main.02c2be56.css.map": "/new-portfolio/static/css/main.02c2be56.css.map",
+    "main.b6937ac9.js.map": "/new-portfolio/static/js/main.b6937ac9.js.map",
     "787.8d4efb73.chunk.js.map": "/new-portfolio/static/js/787.8d4efb73.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a83f8e8.css",
-    "static/js/main.369ca50b.js"
+    "static/css/main.02c2be56.css",
+    "static/js/main.b6937ac9.js"
   ]
 }
