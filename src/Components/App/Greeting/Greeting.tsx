@@ -3,6 +3,7 @@ import style from './Greeting.module.scss';
 import { Parallax, ParallaxBanner } from 'react-scroll-parallax';
 import BackGround from './../../../assets/imgs/Greeting/banner-background.jpg';
 import ForeGround from './../../../assets/imgs/Greeting/banner-foreground.png';
+import { Paper, Typography } from '@mui/material';
 
 const Greeting = () => {
   return (
@@ -19,12 +20,12 @@ const Greeting = () => {
       ]}
       className='aspect-[2/1]'
     >
-      <div className={style.greet}>
+      <Paper className={style.greet}>
         <div className={style.Text}>
-          <h1>Dubovich Andriy</h1>
-          <h3>Front-End developer</h3>
+          <Typography variant='h1'>Dubovich Andriy</Typography>
+          <Typography variant='h3'>Front-End developer</Typography>
         </div>
-      </div>
+      </Paper>
     </ParallaxBanner>
   );
 };
