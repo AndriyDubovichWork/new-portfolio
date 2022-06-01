@@ -26,6 +26,7 @@ const Sidebar = (props: {
                     fontSize: '2rem',
                     color: 'text.primary',
                   }}
+                  onClick={() => props.setIsSidebarOpen(false)}
                 >
                   {el.name}
                 </Typography>
