@@ -10,7 +10,11 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 const CVPDF = () => {
   return (
-    <Box className={style.main} sx={{ backgroundColor: 'primary.main' }}>
+    <Box
+      className={style.main}
+      id='cv'
+      sx={{ backgroundColor: 'primary.main' }}
+    >
       <Typography
         variant={'h3'}
         className={style.Title}

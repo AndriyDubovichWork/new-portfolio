@@ -19,6 +19,7 @@ const Greeting = () => {
         },
       ]}
       className='aspect-[2/1]'
+      id='greeting'
     >
       <Paper className={style.greet}>
         <div className={style.Text}>

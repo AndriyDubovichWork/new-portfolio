@@ -20,23 +20,25 @@ const Contacts = (props: any) => {
     },
   };
   return (
-    <BackWordSlide>
-      <>Contacts</>
-      <>
-        <a href='https://t.me/asa_dad' target='_blank'>
-          <TelegramIcon sx={icon} />
-        </a>
-        <a href='https://github.com/AndriyDubovichWork' target='_blank'>
-          <GitHubIcon sx={icon} />
-        </a>
-        <a
-          href='https://www.linkedin.com/in/andriy-dubovich-14507821a/'
-          target='_blank'
-        >
-          <LinkedInIcon sx={icon} />
-        </a>
-      </>
-    </BackWordSlide>
+    <div id='contacts'>
+      <BackWordSlide>
+        <>Contacts</>
+        <>
+          <a href='https://t.me/asa_dad' target='_blank'>
+            <TelegramIcon sx={icon} />
+          </a>
+          <a href='https://github.com/AndriyDubovichWork' target='_blank'>
+            <GitHubIcon sx={icon} />
+          </a>
+          <a
+            href='https://www.linkedin.com/in/andriy-dubovich-14507821a/'
+            target='_blank'
+          >
+            <LinkedInIcon sx={icon} />
+          </a>
+        </>
+      </BackWordSlide>
+    </div>
   );
 };
 

@@ -1643,6 +1643,11 @@
     prop-types "^15.8.1"
     react-is "^17.0.2"
 
+"@nandorojo/anchor@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@nandorojo/anchor/-/anchor-0.3.0.tgz#9a29a5cf0dec4976967a838ae72d0f06fc7c9dd5"
+  integrity sha512-LvzD8hTDXIQOUg/J/W+HmawRUlCSQ8aE6DNY87XjUJYZWBXF6ndMnj/Ulxu9A/0p1lV7w9dzTBJP3wcXPw2ihg==
+
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
   resolved "https://registry.npmjs.org/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz"
@@ -2203,6 +2208,15 @@
   version "18.0.9"
   resolved "https://registry.npmjs.org/@types/react/-/react-18.0.9.tgz"
   integrity sha512-9bjbg1hJHUm4De19L1cHiW0Jvx3geel6Qczhjd0qY5VKVE2X5+x77YxAepuCwVh4vrgZJdgEJw48zrhRIeF4Nw==
+  dependencies:
+    "@types/prop-types" "*"
+    "@types/scheduler" "*"
+    csstype "^3.0.2"
+
+"@types/react@>=16.8.0 || 17.x.x":
+  version "18.0.10"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.0.10.tgz#5692944d4a45e204fb7a981eb1388afe919cf4d0"
+  integrity sha512-dIugadZuIPrRzvIEevIu7A1smqOAjkSMv8qOfwPt9Ve6i6JT/FQcCHyk2qIAxwsQNKZt5/oGR0T4z9h2dXRAkg==
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
@@ -6112,6 +6126,11 @@ jsonpointer@^5.0.0:
     array-includes "^3.1.4"
     object.assign "^4.1.2"
 
+jump.js@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/jump.js/-/jump.js-1.0.1.tgz#0de2b1631ba9a1c2c6b8572ad277d877e8503600"
+  integrity sha512-KXS4lfs3AcGdYl7cXk4X9mHb6PWIdrvBzGJs/QnG2g6niRoORkwisedbdjKu0VyUYmE2x7V+cV9ypSpaGRL0zg==
+
 kind-of@^6.0.2:
   version "6.0.3"
   resolved "https://registry.npmjs.org/kind-of/-/kind-of-6.0.3.tgz"
@@ -7553,7 +7572,7 @@ prompts@^2.0.1, prompts@^2.4.2:
     kleur "^3.0.3"
     sisteransi "^1.0.5"
 
-prop-types@^15.5.8, prop-types@^15.6.2, prop-types@^15.7.2, prop-types@^15.8.1:
+prop-types@^15.5.10, prop-types@^15.5.8, prop-types@^15.6.2, prop-types@^15.7.2, prop-types@^15.8.1:
   version "15.8.1"
   resolved "https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz"
   integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
@@ -7829,6 +7848,23 @@ react-scroll-parallax@^3.2.0:
   dependencies:
     parallax-controller "^1.5.0"
 
+react-scrollable-anchor@^0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/react-scrollable-anchor/-/react-scrollable-anchor-0.6.1.tgz#fd6e78026c744f76414053d06903b82adccb54d9"
+  integrity sha1-/W54Amx0T3ZBQFPQaQO4KtzLVNk=
+  dependencies:
+    jump.js "1.0.1"
+    prop-types "^15.5.10"
+
+react-scrollchor@^7.0.2:
+  version "7.0.2"
+  resolved "https://registry.yarnpkg.com/react-scrollchor/-/react-scrollchor-7.0.2.tgz#8a4710e71c0a72fe24a1a9be96360c774a258390"
+  integrity sha512-l3bVTy8LAYK4dWEaB3Tr437hIyPMIzRzSJt9c0jss1y9wy/Mvq/y5Q+wwEceeSRziN2Hh6mu7mpCkFHjMb2xjA==
+  dependencies:
+    requestanimationframe-timer "^3.0.0"
+  optionalDependencies:
+    "@types/react" ">=16.8.0 || 17.x.x"
+
 react-shallow-renderer@^16.15.0:
   version "16.15.0"
   resolved "https://registry.npmjs.org/react-shallow-renderer/-/react-shallow-renderer-16.15.0.tgz"
@@ -8032,6 +8068,13 @@ renderkid@^3.0.0:
     htmlparser2 "^6.1.0"
     lodash "^4.17.21"
     strip-ansi "^6.0.1"
+
+requestanimationframe-timer@^3.0.0:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/requestanimationframe-timer/-/requestanimationframe-timer-3.0.3.tgz#a3dcb7a70df6752858cab25f37b636a6cfff9133"
+  integrity sha512-2gCvk7jCQTq0nyukEdLI06X5zogy0DSj0j+mwVz12q29DnelCefxByiUsRovpjdc06cvSLTV6vyhw7g8b0AZ1A==
+  dependencies:
+    raf "^3.4.1"
 
 require-directory@^2.1.1:
   version "2.1.1"

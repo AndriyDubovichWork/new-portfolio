@@ -43,7 +43,7 @@ const WorkExamples = () => {
   const Shop_imgs = [Shop_1, Shop_2];
 
   return (
-    <>
+    <div id='workExamples'>
       <WorkExample
         imgs={ZSU_imgs}
         name='ZSU'
@@ -72,7 +72,7 @@ const WorkExamples = () => {
         gitUrl='https://github.com/AndriyDubovichWork/shop'
         WebUrl='https://andriydubovichwork.github.io/shop/'
       />
-    </>
+    </div>
   );
 };
 
