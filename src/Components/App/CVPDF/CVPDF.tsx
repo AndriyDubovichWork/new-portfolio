@@ -20,7 +20,7 @@ const CVPDF = () => {
       </Typography>
       <a className={style.File} href={CV} target='_blank'>
         <Document file={CV} onLoadSuccess={() => {}}>
-          <Page pageNumber={1} width={window.screen.width - 20} />
+          <Page pageNumber={1} width={window.screen.width - 10} />
         </Document>
       </a>
     </Box>
