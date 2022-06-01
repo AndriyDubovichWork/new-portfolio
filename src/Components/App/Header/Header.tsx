@@ -21,17 +21,16 @@ const Header = (props: { setIsDarkMode: any; isDarkMode: boolean }) => {
             {isDarkMode ? (
               <LightModeIcon
                 onClick={() => {
-                  console.log('1');
                   setIsDarkMode(false);
-                  console.log('1');
                 }}
+                sx={{ fontSize: '2rem' }}
               />
             ) : (
               <DarkModeIcon
                 onClick={() => {
-                  console.log('2');
                   setIsDarkMode(true);
                 }}
+                sx={{ fontSize: '2rem' }}
               />
             )}
           </Typography>
