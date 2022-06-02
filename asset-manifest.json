@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/new-portfolio/static/css/main.e3b05a5a.css",
+    "main.css": "/new-portfolio/static/css/main.f7fef307.css",
     "main.js": "/new-portfolio/static/js/main.e0012275.js",
     "static/js/787.8d4efb73.chunk.js": "/new-portfolio/static/js/787.8d4efb73.chunk.js",
     "static/media/ZSU_4.png": "/new-portfolio/static/media/ZSU_4.45b6b5d45f14a833b292.png",
@@ -28,12 +28,12 @@
     "static/media/slick.woff": "/new-portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/new-portfolio/index.html",
     "static/media/loading.svg": "/new-portfolio/static/media/loading.53ca5178f1b9e0b60d55468466b2b1ac.svg",
-    "main.e3b05a5a.css.map": "/new-portfolio/static/css/main.e3b05a5a.css.map",
+    "main.f7fef307.css.map": "/new-portfolio/static/css/main.f7fef307.css.map",
     "main.e0012275.js.map": "/new-portfolio/static/js/main.e0012275.js.map",
     "787.8d4efb73.chunk.js.map": "/new-portfolio/static/js/787.8d4efb73.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3b05a5a.css",
+    "static/css/main.f7fef307.css",
     "static/js/main.e0012275.js"
   ]
 }
