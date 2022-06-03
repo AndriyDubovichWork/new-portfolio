@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import style from './CVPDF.module.scss';
 import { Document, Page, pdfjs } from 'react-pdf';
 //@ts-ignore
-import CV from './../../../assets/AndriyDubovichCV.pdf';
+import CV from './../../../assets/AndriyDubovichCV2.pdf';
 import download from 'downloadjs';
 import { Box, Typography } from '@mui/material';
 
