@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/new-portfolio/static/css/main.f2e9d23f.css",
-    "main.js": "/new-portfolio/static/js/main.fa4fb605.js",
+    "main.css": "/new-portfolio/static/css/main.5536b026.css",
+    "main.js": "/new-portfolio/static/js/main.f1dafb04.js",
     "static/js/787.8d4efb73.chunk.js": "/new-portfolio/static/js/787.8d4efb73.chunk.js",
     "static/media/ZSU_4.png": "/new-portfolio/static/media/ZSU_4.45b6b5d45f14a833b292.png",
     "static/media/banner-foreground.png": "/new-portfolio/static/media/banner-foreground.1534c6459f051da7d664.png",
+    "static/media/Phone_calculator_2.png": "/new-portfolio/static/media/Phone_calculator_2.07743fc223ad2fb788dc.png",
     "static/media/OldPortfolio_2.png": "/new-portfolio/static/media/OldPortfolio_2.bfc37214310a9952639a.png",
     "static/media/OldPortfolio_1.png": "/new-portfolio/static/media/OldPortfolio_1.c4e6ad3a1ea07cd319bb.png",
+    "static/media/DubovichAndriyCV.pdf": "/new-portfolio/static/media/DubovichAndriyCV.db0d749ac72fe1ce288d.pdf",
     "static/media/nigth.jpg": "/new-portfolio/static/media/nigth.825d694bb735c27e6ce5.jpg",
+    "static/media/Phone_calculator_1.png": "/new-portfolio/static/media/Phone_calculator_1.387f094ba92793e50da7.png",
     "static/media/ZSU_3.png": "/new-portfolio/static/media/ZSU_3.c93770c7fb5407225a2c.png",
     "static/media/Shop_1.png": "/new-portfolio/static/media/Shop_1.53fa8ade05ac26234fdf.png",
     "static/media/ZSU_5.png": "/new-portfolio/static/media/ZSU_5.c11b27a225cd07e9bd06.png",
@@ -17,11 +20,11 @@
     "static/media/task_shop_2.png": "/new-portfolio/static/media/task_shop_2.f67f15ab89bd0c5aca5a.png",
     "static/media/task_shop_3.png": "/new-portfolio/static/media/task_shop_3.a7bc5812f763b17fcb80.png",
     "static/media/ZSU_1.png": "/new-portfolio/static/media/ZSU_1.0edcd5213c7ee3935fd3.png",
+    "static/media/DubovichAndriyCVLinks.pdf": "/new-portfolio/static/media/DubovichAndriyCVLinks.6f0cb7086d9b7e292676.pdf",
     "static/media/Shop_2.png": "/new-portfolio/static/media/Shop_2.ac0e54fb8abaef6b7ec0.png",
     "static/media/OldPortfolio_6.png": "/new-portfolio/static/media/OldPortfolio_6.ae8e2adbdcb58269d6b1.png",
     "static/media/OldPortfolio_5.png": "/new-portfolio/static/media/OldPortfolio_5.e5360ecf6459da3768d0.png",
     "static/media/OldPortfolio_7.png": "/new-portfolio/static/media/OldPortfolio_7.836bf853e0f08d86d086.png",
-    "static/media/AndriyDubovichCV2.pdf": "/new-portfolio/static/media/AndriyDubovichCV2.4040a6d48e4d2fd57ddb.pdf",
     "static/media/WordHub_2.png": "/new-portfolio/static/media/WordHub_2.75c3fd516bfe9185485b.png",
     "static/media/ZSU_2.png": "/new-portfolio/static/media/ZSU_2.a85d9ce126723e7d4cc5.png",
     "static/media/WordHub_1.png": "/new-portfolio/static/media/WordHub_1.364252fe89d748bfa4dd.png",
@@ -31,12 +34,12 @@
     "static/media/slick.woff": "/new-portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/new-portfolio/index.html",
     "static/media/loading.svg": "/new-portfolio/static/media/loading.53ca5178f1b9e0b60d55468466b2b1ac.svg",
-    "main.f2e9d23f.css.map": "/new-portfolio/static/css/main.f2e9d23f.css.map",
-    "main.fa4fb605.js.map": "/new-portfolio/static/js/main.fa4fb605.js.map",
+    "main.5536b026.css.map": "/new-portfolio/static/css/main.5536b026.css.map",
+    "main.f1dafb04.js.map": "/new-portfolio/static/js/main.f1dafb04.js.map",
     "787.8d4efb73.chunk.js.map": "/new-portfolio/static/js/787.8d4efb73.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2e9d23f.css",
-    "static/js/main.fa4fb605.js"
+    "static/css/main.5536b026.css",
+    "static/js/main.f1dafb04.js"
   ]
 }
