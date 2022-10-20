@@ -43,13 +43,12 @@ function App() {
       },
     },
   });
-
   return (
     <ThemeProvider theme={isDarkMode ? DarkTheme : LightTheme}>
       <ParallaxProvider>
         <div className={style.App}>
           <Header setIsDarkMode={setIsDarkMode} isDarkMode={isDarkMode} />
-          <Greeting />
+          <Greeting isDarkMode={isDarkMode}/>
           <AboutMe />
           <WorkExamples />
           <CVPDF />
