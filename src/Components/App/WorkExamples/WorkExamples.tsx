@@ -74,13 +74,13 @@ const WorkExamples = () => {
         gitUrl='https://github.com/AndriyDubovichWork/test_task_shop'
         WebUrl='https://andriydubovichwork.github.io/test_task_shop/?category=all'
       />
-      <WorkExample
+      {/* <WorkExample
         imgs={OldPortfolio_imgs}
         name='Old Portfolio'
         explain='my old portfolio'
         gitUrl='https://github.com/AndriyDubovichWork/Portfolio'
         WebUrl='https://andriydubovichwork.github.io/Portfolio/#/main'
-      />
+      /> */}
 
       <WorkExample
         imgs={WordHub_imgs}

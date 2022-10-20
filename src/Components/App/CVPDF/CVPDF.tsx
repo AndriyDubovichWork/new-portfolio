@@ -2,7 +2,9 @@ import React, { useState } from 'react';
 import style from './CVPDF.module.scss';
 import { Document, Page, pdfjs } from 'react-pdf';
 //@ts-ignore
-import CV from './../../../assets/AndriyDubovichCV2.pdf';
+import CV from './../../../assets/DubovichAndriyCV.pdf';
+//@ts-ignore
+import CV_Links from './../../../assets/DubovichAndriyCVLinks.pdf';
 import download from 'downloadjs';
 import { Box, Typography } from '@mui/material';
 
@@ -22,7 +24,7 @@ const CVPDF = () => {
       >
         My Cv
       </Typography>
-      <a className={style.File} href={CV} target='_blank'>
+      <a className={style.File} href={CV_Links} target='_blank'>
         <Document file={CV} onLoadSuccess={() => {}}>
           <Page pageNumber={1} width={window.screen.width - 10} />
         </Document>

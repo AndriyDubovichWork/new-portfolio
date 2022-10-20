@@ -21,7 +21,7 @@ const WorkExample = (props: {
     slidesToShow: 1,
     slidesToScroll: 1,
     arrows: false,
-    dots: true,
+    dots: false,
   };
   const [isLoaded, setIsLoaded] = useState(false);
 
