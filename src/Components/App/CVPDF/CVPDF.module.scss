@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 .main {
-  margin: 0 auto;
-  text-align: center;
-  .Title {
-    padding: 20px;
-    font-family: 'Righteous', cursive;
-  }
+	margin: 0 auto;
+	text-align: center;
+	.Title {
+		padding: 20px;
+		font-family: 'Righteous', cursive;
+	}
+	.File {
+		display: flex;
+		justify-content: center;
+	}
 }

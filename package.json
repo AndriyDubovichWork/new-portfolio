@@ -1,77 +1,77 @@
 {
-  "name": "new-portfolio",
-  "homepage": "https://andriydubovichwork.github.io/new-portfolio/",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@emotion/react": "^11.9.0",
-    "@emotion/styled": "^11.8.1",
-    "@material-ui/system": "^4.12.2",
-    "@mui/icons-material": "^5.8.0",
-    "@mui/material": "^5.8.1",
-    "@nandorojo/anchor": "^0.3.0",
-    "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^13.3.0",
-    "@testing-library/user-event": "^13.2.1",
-    "@types/jest": "^27.0.1",
-    "@types/node": "^16.7.13",
-    "@types/react": "^18.0.0",
-    "@types/react-dom": "^18.0.0",
-    "@types/react-image-gallery": "^1.0.5",
-    "@types/react-pdf": "^5.7.2",
-    "@types/react-slick": "^0.23.8",
-    "downloadjs": "^1.4.7",
-    "pdf-lib": "^1.17.1",
-    "pro-gallery": "^3.1.38",
-    "react": "^18.1.0",
-    "react-3d-cube-transition": "^1.0.5",
-    "react-dom": "^18.1.0",
-    "react-image-gallery": "^1.2.8",
-    "react-image-galleryx": "^1.2.8",
-    "react-native-3dcube-navigation": "^1.0.5",
-    "react-page-scroller": "^2.2.1",
-    "react-pdf": "^5.7.2",
-    "react-scripts": "5.0.1",
-    "react-scroll-parallax": "^3.2.0",
-    "react-scrollable-anchor": "^0.6.1",
-    "react-scrollchor": "^7.0.2",
-    "react-slick": "^0.29.0",
-    "react-sticky": "^6.0.3",
-    "reactjs-image-gallery": "^1.1.7",
-    "sass": "^1.51.0",
-    "slick-carousel": "^1.8.1",
-    "typescript": "^4.4.2",
-    "web-vitals": "^2.1.0"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "devDependencies": {
-    "@types/react-sticky": "^6.0.4",
-    "gh-pages": "^4.0.0",
-    "react-test-renderer": "^18.1.0"
-  }
+	"name": "new-portfolio",
+	"homepage": "https://andriydubovichwork.github.io/new-portfolio/",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"@emotion/react": "^11.9.0",
+		"@emotion/styled": "^11.8.1",
+		"@material-ui/system": "^4.12.2",
+		"@mui/icons-material": "^5.8.0",
+		"@mui/material": "^5.8.1",
+		"@nandorojo/anchor": "^0.3.0",
+		"@testing-library/jest-dom": "^5.14.1",
+		"@testing-library/react": "^13.3.0",
+		"@testing-library/user-event": "^13.2.1",
+		"@types/jest": "^27.0.1",
+		"@types/node": "^16.7.13",
+		"@types/react": "^18.0.0",
+		"@types/react-dom": "^18.0.0",
+		"@types/react-image-gallery": "^1.0.5",
+		"@types/react-pdf": "^5.7.2",
+		"@types/react-slick": "^0.23.8",
+		"downloadjs": "^1.4.7",
+		"pdf-lib": "^1.17.1",
+		"pro-gallery": "^3.1.38",
+		"react": "^18.1.0",
+		"react-3d-cube-transition": "^1.0.5",
+		"react-dom": "^18.1.0",
+		"react-image-gallery": "^1.2.8",
+		"react-image-galleryx": "^1.2.8",
+		"react-native-3dcube-navigation": "^1.0.5",
+		"react-page-scroller": "^2.2.1",
+		"react-pdf": "^5.7.2",
+		"react-scripts": "5.0.1",
+		"react-scroll-parallax": "^3.2.0",
+		"react-scrollable-anchor": "^0.6.1",
+		"react-scrollchor": "^7.0.2",
+		"react-slick": "^0.29.0",
+		"react-sticky": "^6.0.3",
+		"reactjs-image-gallery": "^1.1.7",
+		"sass": "^1.51.0",
+		"slick-carousel": "^1.8.1",
+		"typescript": "^4.4.2",
+		"web-vitals": "^2.1.0"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build"
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app",
+			"react-app/jest"
+		]
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"@types/react-sticky": "^6.0.4",
+		"gh-pages": "^4.0.0",
+		"react-test-renderer": "^18.1.0"
+	}
 }

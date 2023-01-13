@@ -1,58 +1,67 @@
 .WorkExample {
-  width: 100%;
+	width: 100%;
+	height: 100%;
+	.Wraper {
+		position: relative;
+		img {
+			width: 100%;
+		}
+	}
+	.Text {
+		width: 100%;
+		height: 100%;
+		position: absolute;
 
-  .Wraper {
-    position: relative;
-    img {
-      width: 100%;
-    }
-  }
-  .Text {
-    width: 100%;
-    height: 100%;
-    position: absolute;
+		top: 0;
+		left: 0;
 
-    top: 0;
-    left: 0;
+		background: rgba(91, 91, 91, 0.5);
+		color: #fff;
+		visibility: hidden;
+		opacity: 0;
 
-    background: rgba(91, 91, 91, 0.5);
-    color: #fff;
-    visibility: hidden;
-    opacity: 0;
+		/* transition effect. not necessary */
+		transition: opacity 0.2s, visibility 0.2s;
 
-    /* transition effect. not necessary */
-    transition: opacity 0.2s, visibility 0.2s;
+		.title {
+			margin: 0 auto;
+			text-align: center;
+			position: relative;
+			top: 10%;
+			@media screen and (min-width: 600px) {
+				top: 50%;
+			}
+			transform: translateY(-50%);
+		}
 
-    .title {
-      margin: 0 auto;
-      text-align: center;
-      position: relative;
-      top: 50%;
-      transform: translateY(-50%);
-    }
+		.subTitle {
+			margin: 10px auto;
+			text-align: center;
+			position: relative;
+			top: 10%;
+			@media screen and (min-width: 600px) {
+				top: 50%;
+			}
+			transform: translateY(-50%);
+		}
+		.Icons {
+			margin: 20px auto;
+			text-align: center;
+			position: relative;
+			top: 10%;
+			@media screen and (min-width: 600px) {
+				top: 50%;
+			}
+			transform: translateY(-50%);
+			align-items: center;
+			a {
+				margin: 0 20px;
+			}
+		}
+	}
 
-    .subTitle {
-      margin: 10px auto;
-      text-align: center;
-      position: relative;
-      top: 50%;
-      transform: translateY(-50%);
-    }
-    .Icons {
-      margin: 20px auto;
-      text-align: center;
-      position: relative;
-      top: 50%;
-      transform: translateY(-50%);
-      align-items: center;
-      a {
-        margin: 0 20px;
-      }
-    }
-  }
-
-  .Wraper:hover .Text {
-    visibility: visible;
-    opacity: 1;
-  }
+	.Wraper:hover .Text {
+		visibility: visible;
+		opacity: 1;
+	}
 }
