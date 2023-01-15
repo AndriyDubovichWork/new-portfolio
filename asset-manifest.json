@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/new-portfolio/static/css/main.5536b026.css",
-    "main.js": "/new-portfolio/static/js/main.f1dafb04.js",
-    "static/js/787.8d4efb73.chunk.js": "/new-portfolio/static/js/787.8d4efb73.chunk.js",
+    "main.css": "/new-portfolio/static/css/main.e783ecce.css",
+    "main.js": "/new-portfolio/static/js/main.0e4b14b8.js",
     "static/media/ZSU_4.png": "/new-portfolio/static/media/ZSU_4.45b6b5d45f14a833b292.png",
     "static/media/banner-foreground.png": "/new-portfolio/static/media/banner-foreground.1534c6459f051da7d664.png",
     "static/media/Phone_calculator_2.png": "/new-portfolio/static/media/Phone_calculator_2.07743fc223ad2fb788dc.png",
@@ -17,7 +16,9 @@
     "static/media/task_shop_1.png": "/new-portfolio/static/media/task_shop_1.b2e308133db82c65e08f.png",
     "static/media/OldPortfolio_3.png": "/new-portfolio/static/media/OldPortfolio_3.72026adb33bfb0015125.png",
     "static/media/OldPortfolio_4.png": "/new-portfolio/static/media/OldPortfolio_4.c9985a3ba73b5a2e272b.png",
+    "static/media/Russian_Losses_1.png": "/new-portfolio/static/media/Russian_Losses_1.0a9b2448844102358c55.png",
     "static/media/task_shop_2.png": "/new-portfolio/static/media/task_shop_2.f67f15ab89bd0c5aca5a.png",
+    "static/media/Russian_Losses_2.png": "/new-portfolio/static/media/Russian_Losses_2.ac2bc404872b62614f93.png",
     "static/media/task_shop_3.png": "/new-portfolio/static/media/task_shop_3.a7bc5812f763b17fcb80.png",
     "static/media/ZSU_1.png": "/new-portfolio/static/media/ZSU_1.0edcd5213c7ee3935fd3.png",
     "static/media/DubovichAndriyCVLinks.pdf": "/new-portfolio/static/media/DubovichAndriyCVLinks.6f0cb7086d9b7e292676.pdf",
@@ -34,12 +35,11 @@
     "static/media/slick.woff": "/new-portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/new-portfolio/index.html",
     "static/media/loading.svg": "/new-portfolio/static/media/loading.53ca5178f1b9e0b60d55468466b2b1ac.svg",
-    "main.5536b026.css.map": "/new-portfolio/static/css/main.5536b026.css.map",
-    "main.f1dafb04.js.map": "/new-portfolio/static/js/main.f1dafb04.js.map",
-    "787.8d4efb73.chunk.js.map": "/new-portfolio/static/js/787.8d4efb73.chunk.js.map"
+    "main.e783ecce.css.map": "/new-portfolio/static/css/main.e783ecce.css.map",
+    "main.0e4b14b8.js.map": "/new-portfolio/static/js/main.0e4b14b8.js.map"
   },
   "entrypoints": [
-    "static/css/main.5536b026.css",
-    "static/js/main.f1dafb04.js"
+    "static/css/main.e783ecce.css",
+    "static/js/main.0e4b14b8.js"
   ]
 }
