@@ -1,6 +1,3 @@
-import React, { useState } from 'react';
-import style from './WorkExamples.module.scss';
-
 import WorkExample from './WorkExample/WorkExample';
 
 import ZSU_1 from './../assets/imgs/ZSU/ZSU_1.png';
@@ -11,6 +8,8 @@ import ZSU_5 from './../assets/imgs/ZSU/ZSU_5.png';
 
 import WordHub_1 from './../assets/imgs/WordHub/WordHub_1.png';
 import WordHub_2 from './../assets/imgs/WordHub/WordHub_2.png';
+import WordHub_3 from './../assets/imgs/WordHub/WordHub_3.png';
+import WordHub_4 from './../assets/imgs/WordHub/WordHub_4.png';
 
 import task_shop_1 from './../assets/imgs/Task_Shop/task_shop_1.png';
 import task_shop_2 from './../assets/imgs/Task_Shop/task_shop_2.png';
@@ -33,12 +32,12 @@ import Phone_calculator_2 from './../assets/imgs/Phone_calculator/Phone_calculat
 import Shop_1 from './../assets/imgs/Shop/Shop_1.png';
 import Shop_2 from './../assets/imgs/Shop/Shop_2.png';
 
-import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import 'slick-carousel/slick/slick.css';
 
 const WorkExamples = () => {
 	const ZSU_imgs = [ZSU_1, ZSU_2, ZSU_3, ZSU_4, ZSU_5];
-	const WordHub_imgs = [WordHub_1, WordHub_2];
+	const WordHub_imgs = [WordHub_1, WordHub_2, WordHub_3, WordHub_4];
 	const calculator_imgs = [Phone_calculator_1, Phone_calculator_2];
 	const task_shop_imgs = [task_shop_1, task_shop_2, task_shop_3];
 	const OldPortfolio_imgs = [
@@ -55,6 +54,13 @@ const WorkExamples = () => {
 
 	return (
 		<div id='workExamples'>
+			<WorkExample
+				imgs={WordHub_imgs}
+				name='Word Hub'
+				explain='App for learning new words'
+				gitUrl='https://github.com/AndriyDubovichWork/word-hub'
+				WebUrl='https://andriydubovichwork.github.io/word-hub/'
+			/>
 			<WorkExample
 				imgs={RussianLosses}
 				name='Russian Losses'
@@ -83,14 +89,6 @@ const WorkExamples = () => {
         gitUrl='https://github.com/AndriyDubovichWork/Portfolio'
         WebUrl='https://andriydubovichwork.github.io/Portfolio/#/main'
       /> */}
-
-			<WorkExample
-				imgs={WordHub_imgs}
-				name='Word Hub'
-				explain='App for learning new words'
-				gitUrl='https://github.com/AndriyDubovichWork/learning-languages-ts'
-				WebUrl='https://andriydubovichwork.github.io/learning-languages-ts/'
-			/>
 		</div>
 	);
 };
