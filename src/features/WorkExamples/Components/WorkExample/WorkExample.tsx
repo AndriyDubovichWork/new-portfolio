@@ -8,69 +8,65 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import WebIcon from '@mui/icons-material/Web';
 import PlaceHolder from '../Loading/Loading';
 
-const WorkExample = (props: {
-	imgs: string[];
-	name: string;
-	explain: string;
-	WebUrl: string;
-	gitUrl: string;
-}) => {
-	const settings = {
-		infinite: true,
-		speed: 500,
-		slidesToShow: 1,
-		slidesToScroll: 1,
-		arrows: false,
-		dots: false,
-	};
-	const [isLoaded, setIsLoaded] = useState(false);
+type workExample = {
+  img: string;
+  name: string;
+  explain: string;
+  WebUrl: string;
+  gitUrl: string;
+  isReverse?: boolean;
+};
 
-	return (
-		<>
-			<Slider {...settings} className={style.WorkExample}>
-				{props.imgs.map((img) => {
-					return (
-						<div className={style.Wraper} key={img}>
-							{isLoaded ? '' : <PlaceHolder />}
-							<img
-								style={isLoaded ? {} : { display: 'none' }}
-								src={img}
-								className={style.img}
-								alt={img}
-								onLoad={() => setIsLoaded(true)}
-							/>
-							<div className={style.Text}>
-								<h1 className={style.title}>{props.name}</h1>
-								<h3 className={style.subTitle}>{props.explain}</h3>
-								<p className={style.Icons}>
-									<a target='_blank' href={props.gitUrl} rel='noreferrer'>
-										<GitHubIcon
-											sx={{
-												fontSize: '50px',
-												margin: '0 auto',
-												cursor: 'pointer',
-												color: '#fff',
-											}}
-										/>
-									</a>
-									<a target='_blank' href={props.WebUrl} rel='noreferrer'>
-										<WebIcon
-											sx={{
-												fontSize: '50px',
-												margin: '0 auto',
-												cursor: 'pointer',
-												color: '#fff',
-											}}
-										/>
-									</a>
-								</p>
-							</div>
-						</div>
-					);
-				})}
-			</Slider>
-		</>
-	);
+const WorkExample = ({
+  img,
+  WebUrl,
+  explain,
+  gitUrl,
+  name,
+  isReverse,
+}: workExample) => {
+  const [isLoaded, setIsLoaded] = useState(false);
+
+  return (
+    <div className={`${style.example} ${style.reverse}`}>
+      {!isLoaded && <PlaceHolder />}
+      <div className={style.container}>
+        <img
+          style={isLoaded ? {} : { display: 'none' }}
+          src={img}
+          className={style.img}
+          alt={img}
+          onLoad={() => setIsLoaded(true)}
+        />
+      </div>
+      <div className={style.text}>
+        <h1 className={style.name}>{name}</h1>
+        <h3 className={style.explain}>{explain}</h3>
+        <div className={style.Icons}>
+          <a target='_blank' href={gitUrl} rel='noreferrer'>
+            <GitHubIcon
+              sx={{
+                fontSize: '50px',
+                margin: '0 auto',
+                cursor: 'pointer',
+                color: '#fff',
+              }}
+            />
+          </a>
+          <a target='_blank' href={WebUrl} rel='noreferrer'>
+            <WebIcon
+              sx={{
+                fontSize: '50px',
+                margin: '0 auto',
+                cursor: 'pointer',
+                color: '#fff',
+              }}
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default WorkExample;
