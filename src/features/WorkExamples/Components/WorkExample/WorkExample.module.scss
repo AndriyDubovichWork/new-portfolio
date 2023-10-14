@@ -1,21 +1,27 @@
-$height: 300px;
+$height: 400px;
 
 .example {
+  margin: 3vh 0;
+
+  gap: 1vw;
+
+  width: 60vw;
+
   display: flex;
   flex-direction: row;
-  width: 90vw;
-  margin: 0 auto;
+  justify-content: space-between;
   .container {
-    width: 500px;
+    width: 50%;
     height: $height;
     overflow: hidden;
-    position: relative;
+
     .img {
       width: 100%;
       height: auto;
-      transition: transform 7s;
+      transition: transform 10s;
       cursor: pointer;
     }
+    border-radius: 24px;
   }
 
   .container:hover .img {
@@ -27,8 +33,17 @@ $height: 300px;
   .text {
     display: flex;
     flex-direction: column;
-
     justify-content: space-around;
+    align-items: center;
+
+    text-align: center;
+    width: 50%;
+
+    .icons {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+    }
   }
 }
 

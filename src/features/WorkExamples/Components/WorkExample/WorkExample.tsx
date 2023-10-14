@@ -5,8 +5,20 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 import GitHubIcon from '@mui/icons-material/GitHub';
-import WebIcon from '@mui/icons-material/Web';
+import LanguageIcon from '@mui/icons-material/Language';
 import PlaceHolder from '../Loading/Loading';
+import { Box, Typography } from '@mui/material';
+
+const iconStyle = {
+  fontSize: '50px',
+  margin: '0 auto',
+  cursor: 'pointer',
+  color: 'text.primary',
+  transition: '.75s color',
+  '&:hover': {
+    color: 'success.main',
+  },
+};
 
 type workExample = {
   img: string;
@@ -28,7 +40,10 @@ const WorkExample = ({
   const [isLoaded, setIsLoaded] = useState(false);
 
   return (
-    <div className={`${style.example} ${style.reverse}`}>
+    <Box
+      className={`${style.example} ${isReverse && style.reverse}`}
+      sx={{ backgroundColor: 'primary.main' }}
+    >
       {!isLoaded && <PlaceHolder />}
       <div className={style.container}>
         <img
@@ -40,32 +55,30 @@ const WorkExample = ({
         />
       </div>
       <div className={style.text}>
-        <h1 className={style.name}>{name}</h1>
-        <h3 className={style.explain}>{explain}</h3>
-        <div className={style.Icons}>
+        <Typography
+          variant='h4'
+          sx={{ color: 'text.primary' }}
+          className={style.name}
+        >
+          {name}
+        </Typography>
+        <Typography
+          variant='h6'
+          sx={{ color: 'text.primary' }}
+          className={style.explain}
+        >
+          {explain}
+        </Typography>
+        <div className={style.icons}>
           <a target='_blank' href={gitUrl} rel='noreferrer'>
-            <GitHubIcon
-              sx={{
-                fontSize: '50px',
-                margin: '0 auto',
-                cursor: 'pointer',
-                color: '#fff',
-              }}
-            />
+            <GitHubIcon sx={iconStyle} />
           </a>
           <a target='_blank' href={WebUrl} rel='noreferrer'>
-            <WebIcon
-              sx={{
-                fontSize: '50px',
-                margin: '0 auto',
-                cursor: 'pointer',
-                color: '#fff',
-              }}
-            />
+            <LanguageIcon sx={iconStyle} />
           </a>
         </div>
       </div>
-    </div>
+    </Box>
   );
 };
 

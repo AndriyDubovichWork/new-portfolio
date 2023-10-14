@@ -14,50 +14,56 @@ import Contacts from './features/Contacts/components/Contacts';
 import WorkExamples from './features/WorkExamples/Components/WorkExamples';
 
 function App() {
-	const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(false);
 
-	const LightTheme = createTheme({
-		palette: {
-			primary: {
-				main: '#ECECEC',
-			},
-			text: {
-				primary: '#000',
-				secondary: '#D4D4D4',
-			},
-			info: {
-				main: '#fff',
-			},
-		},
-	});
-	const DarkTheme = createTheme({
-		palette: {
-			primary: {
-				main: '#2D2D2D',
-			},
-			text: {
-				primary: '#fff',
-				secondary: '#4E4E4E',
-			},
-			info: {
-				main: '#000',
-			},
-		},
-	});
-	return (
-		<ThemeProvider theme={isDarkMode ? DarkTheme : LightTheme}>
-			<ParallaxProvider>
-				<div className={style.App}>
-					<Header setIsDarkMode={setIsDarkMode} isDarkMode={isDarkMode} />
-					<Greeting isDarkMode={isDarkMode} />
-					<AboutMe />
-					<WorkExamples />
-					<CVPDF />
-					<Contacts />
-				</div>
-			</ParallaxProvider>
-		</ThemeProvider>
-	);
+  const LightTheme = createTheme({
+    palette: {
+      primary: {
+        main: '#ECECEC',
+      },
+      text: {
+        primary: '#000',
+        secondary: '#D4D4D4',
+      },
+      info: {
+        main: '#fff',
+      },
+      success: {
+        main: '#147efb',
+      },
+    },
+  });
+  const DarkTheme = createTheme({
+    palette: {
+      primary: {
+        main: '#2D2D2D',
+      },
+      text: {
+        primary: '#fff',
+        secondary: '#4E4E4E',
+      },
+      info: {
+        main: '#000',
+      },
+      success: {
+        main: '#147efb',
+      },
+    },
+  });
+  return (
+    <ThemeProvider theme={isDarkMode ? DarkTheme : LightTheme}>
+      <ParallaxProvider>
+        <div className={style.App}>
+          <Header setIsDarkMode={setIsDarkMode} isDarkMode={isDarkMode} />
+          <Greeting isDarkMode={isDarkMode} />
+          <AboutMe />
+          <WorkExamples />
+          <CVPDF />
+          <Contacts />
+        </div>
+      </ParallaxProvider>
+    </ThemeProvider>
+  );
 }
 
 export default App;
