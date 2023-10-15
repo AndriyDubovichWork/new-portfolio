@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/new-portfolio/static/css/main.e45d89b9.css",
-    "main.js": "/new-portfolio/static/js/main.46b9fd94.js",
+    "main.js": "/new-portfolio/static/js/main.caa554c4.js",
     "static/media/news-pulse.png": "/new-portfolio/static/media/news-pulse.820e9eeb71a9ea786d42.png",
     "static/media/banner-foreground.png": "/new-portfolio/static/media/banner-foreground.1534c6459f051da7d664.png",
     "static/media/DubovichAndriyCV.pdf": "/new-portfolio/static/media/DubovichAndriyCV.68bc85a3dc72cfcf10bc.pdf",
@@ -17,10 +17,10 @@
     "index.html": "/new-portfolio/index.html",
     "static/media/loading.svg": "/new-portfolio/static/media/loading.53ca5178f1b9e0b60d55468466b2b1ac.svg",
     "main.e45d89b9.css.map": "/new-portfolio/static/css/main.e45d89b9.css.map",
-    "main.46b9fd94.js.map": "/new-portfolio/static/js/main.46b9fd94.js.map"
+    "main.caa554c4.js.map": "/new-portfolio/static/js/main.caa554c4.js.map"
   },
   "entrypoints": [
     "static/css/main.e45d89b9.css",
-    "static/js/main.46b9fd94.js"
+    "static/js/main.caa554c4.js"
   ]
 }
