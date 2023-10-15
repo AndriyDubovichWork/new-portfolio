@@ -14,6 +14,7 @@ $height: 400px;
     width: 50%;
     height: $height;
     overflow: hidden;
+    border-radius: 24px;
 
     .img {
       width: 100%;
@@ -21,7 +22,6 @@ $height: 400px;
       transition: transform 10s;
       cursor: pointer;
     }
-    border-radius: 24px;
   }
 
   .container:hover .img {
@@ -49,4 +49,19 @@ $height: 400px;
 
 .reverse {
   flex-direction: row-reverse;
+}
+@media (orientation: portrait) {
+  .example {
+    width: 100vw;
+    flex-direction: column;
+    .container {
+      width: 100%;
+    }
+    .text {
+      width: 100%;
+    }
+  }
+  .reverse {
+    flex-direction: column;
+  }
 }

@@ -20,7 +20,10 @@ const BackWordSlide = (props: any) => {
       )}
 
       <Box className={style.Text} sx={{ backgroundColor: 'rgba(0,0,0,0)' }}>
-        <Typography variant='h4' component='h4' sx={{ color: 'text.primary' }}>
+        <Typography
+          component='h4'
+          sx={{ color: 'text.primary', fontSize: '1.2rem', fontWeight: '600' }}
+        >
           {props.children[1]}
         </Typography>
       </Box>

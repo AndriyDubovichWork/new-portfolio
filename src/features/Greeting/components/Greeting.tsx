@@ -23,7 +23,10 @@ const Greeting = ({ isDarkMode }: { isDarkMode: boolean }) => {
     >
       <Paper className={style.greet}>
         <div className={style.Text}>
-          <Typography variant='h1' sx={{ color: 'primary.main' }}>
+          <Typography
+            variant='h1'
+            sx={{ color: 'primary.main', fontSize: '3rem' }}
+          >
             Dubovich Andriy
           </Typography>
           <Typography variant='h3' sx={{ color: 'primary.main' }}>

@@ -4,6 +4,8 @@ import { Document, Page, pdfjs } from 'react-pdf';
 //@ts-ignore
 import CV from './../assets/CVs/DubovichAndriyCV.pdf';
 //@ts-ignore
+import CV_Links from './../assets/CVs/DubovichAndriyCVLinks.pdf';
+
 import { Box, Typography } from '@mui/material';
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
@@ -22,7 +24,12 @@ const CVPDF = () => {
       >
         My Cv
       </Typography>
-      <a className={style.File} href={CV} target='_blank' rel='noreferrer'>
+      <a
+        className={style.File}
+        href={CV_Links}
+        target='_blank'
+        rel='noreferrer'
+      >
         <Document file={CV} className={style.document}>
           <Page pageNumber={1} width={window.screen.width - 10} />
         </Document>
