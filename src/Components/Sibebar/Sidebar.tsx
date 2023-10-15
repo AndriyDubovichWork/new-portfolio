@@ -9,7 +9,11 @@ const Sidebar = (props: {
   isSidebarOpen: boolean;
 }) => {
   const drawer = (
-    <Box sx={{ color: 'text.primary' }}>
+    <Box
+      sx={{
+        color: 'text.primary',
+      }}
+    >
       <List>
         {props.siteAncors.map((el: { to: string; name: string }) => {
           return (
@@ -25,6 +29,10 @@ const Sidebar = (props: {
                   sx={{
                     fontSize: '2rem',
                     color: 'text.primary',
+                    transition: '.75s color',
+                    '&:hover': {
+                      color: 'success.main',
+                    },
                   }}
                   onClick={() => props.setIsSidebarOpen(false)}
                 >
