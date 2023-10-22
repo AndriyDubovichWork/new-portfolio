@@ -6,7 +6,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import 'slick-carousel/slick/slick.css';
 
 import newsPulse from './../assets/imgs/news-pulse.png';
-import pcClub from './../assets/imgs/PC_Club.png';
+import internetCafe from './../assets/imgs/internet-cafe.png';
 import testTaskShop from './../assets/imgs/test_task_shop.png';
 import russianLosses from './../assets/imgs/russian_losses.png';
 import { Box } from '@mui/material';
@@ -27,11 +27,11 @@ const WorkExamples = () => {
       />
       <WorkExample
         isReverse
-        img={pcClub}
-        name='PC Club'
+        img={internetCafe}
+        name='Internet Cafe'
         explain='Unlock the Ultimate Gaming Experience! Rent high-end PCs for gaming and more. Enjoy a sleek, user-friendly design. Explore our selection of cool mouses and keyboards to take your gaming to the next level.'
-        gitUrl='https://github.com/AndriyDubovichWork/PC_Club'
-        WebUrl='https://andriydubovichwork.github.io/PC_Club/'
+        gitUrl='https://github.com/AndriyDubovichWork/Internet_Cafe'
+        WebUrl='https://internet-cafe.vercel.app/'
       />
       <WorkExample
         img={testTaskShop}
