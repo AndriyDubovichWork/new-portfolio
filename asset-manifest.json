@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/new-portfolio/static/css/main.e45d89b9.css",
-    "main.js": "/new-portfolio/static/js/main.caa554c4.js",
+    "main.js": "/new-portfolio/static/js/main.c228f3ca.js",
     "static/media/news-pulse.png": "/new-portfolio/static/media/news-pulse.820e9eeb71a9ea786d42.png",
     "static/media/banner-foreground.png": "/new-portfolio/static/media/banner-foreground.1534c6459f051da7d664.png",
-    "static/media/DubovichAndriyCV.pdf": "/new-portfolio/static/media/DubovichAndriyCV.68bc85a3dc72cfcf10bc.pdf",
+    "static/media/DubovichAndriyCV.pdf": "/new-portfolio/static/media/DubovichAndriyCV.5253f5bd831c8e3e1c35.pdf",
+    "static/media/internet-cafe.png": "/new-portfolio/static/media/internet-cafe.95e37e75965dc2732c83.png",
     "static/media/test_task_shop.png": "/new-portfolio/static/media/test_task_shop.c9a9f2a14f352c614826.png",
     "static/media/nigth.jpg": "/new-portfolio/static/media/nigth.825d694bb735c27e6ce5.jpg",
-    "static/media/PC_Club.png": "/new-portfolio/static/media/PC_Club.a9b7264131dc2f027c34.png",
     "static/media/russian_losses.png": "/new-portfolio/static/media/russian_losses.33b22fa34ea2980440ac.png",
-    "static/media/DubovichAndriyCVLinks.pdf": "/new-portfolio/static/media/DubovichAndriyCVLinks.b73b7a8882d7d908f77a.pdf",
+    "static/media/DubovichAndriyCVLinks.pdf": "/new-portfolio/static/media/DubovichAndriyCVLinks.d56acd1eeb5ebb3900c6.pdf",
     "static/media/slick.svg": "/new-portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/new-portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/new-portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
@@ -17,10 +17,10 @@
     "index.html": "/new-portfolio/index.html",
     "static/media/loading.svg": "/new-portfolio/static/media/loading.53ca5178f1b9e0b60d55468466b2b1ac.svg",
     "main.e45d89b9.css.map": "/new-portfolio/static/css/main.e45d89b9.css.map",
-    "main.caa554c4.js.map": "/new-portfolio/static/js/main.caa554c4.js.map"
+    "main.c228f3ca.js.map": "/new-portfolio/static/js/main.c228f3ca.js.map"
   },
   "entrypoints": [
     "static/css/main.e45d89b9.css",
-    "static/js/main.caa554c4.js"
+    "static/js/main.c228f3ca.js"
   ]
 }
